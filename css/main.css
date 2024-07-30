@@ -7,10 +7,6 @@
     --paragraph-font-family: "Roboto", "Arial", sans-serif;
 }
 
-.footer {
-    display: none;
-}
-
 html {
     height: 100%;
     scroll-behavior: smooth;
@@ -450,12 +446,8 @@ a {
 
 .footer-bottom-list {
     width: 25%;
-    padding: 0;
+    padding: 10px;
     margin: 0;
-}
-
-.footer-bottom-list:not(:last-child) {
-    padding-right: 25px;
 }
 
 .footer-bottom-item {
@@ -613,6 +605,26 @@ a {
     .orange-button {
         align-self: center;
     }
+    
+    .footer {
+        padding-top: 0px;
+        padding-bottom: 25px;
+    }
+    
+    .footer-line {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    
+    .footer-bottom {
+        gap: 25px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .footer-bottom-list {
+        width: 45%;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -641,6 +653,19 @@ a {
     
     .sale-inner {
         padding: 15px;
+    }
+    
+    .footer-bottom-list {
+        width: 100%;
+    }
+    
+    .footer-top {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .footer-top .site-logo {
+        margin-right: 0;
     }
 }
 
