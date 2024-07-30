@@ -613,7 +613,6 @@ a {
     .orange-button {
         align-self: center;
     }
-    
 }
 
 @media only screen and (max-width: 500px) {
@@ -641,7 +640,7 @@ a {
     }
     
     .sale-inner {
-        padding: 10px;
+        padding: 15px;
     }
 }
 
