@@ -23,6 +23,12 @@ if (elMenuToggleBtn) {
 
 elsSitenavItem.forEach(function (elSitenavItem) {
     elSitenavItem.addEventListener('click', function () {
+        // Remove the 'border-active' class from all items
+        elsSitenavItem.forEach(function (item) {
+            item.classList.remove('border-active');
+        });
+        // Add the 'border-active' class to the clicked item
+        elSitenavItem.classList.add('border-active');
         elSitenavWrapper.classList.remove('menu-open');
     });
 });
