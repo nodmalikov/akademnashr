@@ -516,7 +516,7 @@ a {
 
     .header {
         border-top: none;
-        border-bottom: 5px solid var(--component-color);
+        border-bottom: 5px solid var(--background-color);
     }
     
     .sitenav-wrapper {
