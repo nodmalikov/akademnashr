@@ -513,6 +513,11 @@ a {
         max-width: 390px;
         align-self: center;
     }
+
+    .header {
+        border-top: none;
+        border-bottom: 5px solid var(--component-color);
+    }
     
     .sitenav-wrapper {
         position: absolute;
