@@ -75,6 +75,12 @@ a {
     z-index: 110;
 }
 
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 /* SITE-MAIN */
 .main {
     flex-grow: 1;
